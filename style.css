@@ -1,0 +1,154 @@
+.baner {
+    background-image: url(billboard.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+  }
+  
+  .flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(240, 248, 255, 0.796);
+    width: 100%;
+  }
+  a {
+    text-decoration: none;
+  }
+  .nav-links {
+    list-style: none;
+  }
+  .nav-links li {
+    display: inline;
+    margin: 5px;
+    font-family: "Montserrat", sans-serif;
+    padding: 5px;
+  }
+  .nav-links a {
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+  }
+  .nav-links a:hover {
+    color: rgb(193, 143, 224);
+    text-decoration: underline;
+  }
+  .nav-links a:active {
+    color: aqua;
+  }
+  .nav-links a:checked {
+    color: rgb(48, 211, 217);
+  }
+  .img_footer {
+    position: absolute;
+    top: 660px;
+    background-color: rgba(240, 248, 255, 0.796);
+    padding: 10px;
+    width: 100%;
+    text-size-adjust: 20px;
+  }
+  .img_footer button{
+    position: relative;
+    padding: 10px;
+    background-color: rgba(101, 179, 221, 0.763);
+    left: 900px;
+  }
+  .stuff {
+    text-align: center;
+  }
+  .stuff_img {
+    display: flex;
+    gap: 85px;
+    margin: 20px 105px 20px 115px;
+    text-align: center;
+  }
+  .stuff_img img {
+    margin-left: 240px;
+  }
+  .stuff_text {
+    display: flex;
+    padding: 0px 534px 0px 170px;
+    text-align: center;
+    gap: 85;
+    margin: 20px -328px 20px 52px;
+    /* margin-left: 240px; */
+  }
+  .flex_image {
+    display: flex;
+    height: 400px;
+    width: 100%;
+  }
+  .client {
+    position: relative;
+    display: flex;
+    gap: 30px;
+    font-size: small;
+    left: 400px;
+    text-align: center;
+    /* background-color: rgba(240, 248, 255, 0.889); */
+  }
+  
+  .client img {
+    border-radius: 50%;
+  }
+  h2 {
+    text-align: center;
+  }
+  .client_logo{
+    background-color: rgba(240, 248, 255, 0.837);
+    text-align: center;
+  }
+  .client_logo img{
+    margin: 30px;
+  }
+  .flex_container1{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: aliceblue;
+    height:300px;
+    top: 50px;
+  }
+  .flex_container1 h3{
+    margin-top: 100px;
+  }
+  
+  .loc a{
+    text-decoration: none;
+    color: aliceblue;
+    line-height: 30px;
+  }
+  .com li{
+    list-style: none;
+    color: aliceblue;
+    line-height: 25px;
+    position: relative;
+    right: 39px;
+  }
+  .sup li{
+    position: relative;
+    list-style: none;
+    color: aliceblue;
+    line-height: 25px;
+    right: 39px;
+  }
+  .footer{
+    text-align: center;
+    color: aliceblue;
+    background-color: black;
+  }
+  .about{
+  position: absolute;
+  color: white;
+  background-color: rgba(240, 248, 255, 0.64);
+  padding: 20px;
+  left: 500px;
+  }
+  .about button{
+    padding: 5px;
+    background-color: rgba(101, 179, 221, 0.763);
+    
+  }
+  
